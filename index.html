@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rest API</title>
+  </head>
+  <body>
+    <h1>This is a REST API you can do following operations with this API:</h1><br>
+    <h2>Get all articles in database</h2><br>
+    <p>To get all articles in database you need to send a GET request on this url + /articles and you will get all the articles as response</p><br>
+    <h2>Post a article</h2><br>
+    <p>To post a article you need to send a POST request to thisurl/articles and add title and content as parameter in your req and a new post with your given title and content will be created.</p><br>
+    <h2>Delete all articles from database</h2><br>
+    <p>To delete all the articles from database send DELETE request to thisurl/articles and all articles will be deleted</p><br>
+    <h2>Get a specific article</h2><br>
+    <p>To get a specific article just send GET request to thisurl/articles/articleName where articleName is the name of article you want to retrieve.</p><br>
+    <h2>Delete a specific article</h2><br>
+    <p>To delete any particular article send DELETE request to thisurl/articles/articleName where articleName is the name of article you want to delete.</p><br>
+    <h2>Update a specific article</h2>
+    <p>To update any specific article you can either send a PUT request or a PATCH request,if you send a PUT request then you need to define the title as well as content as parameters but if you send a PATCH request then only the parameters you specified in your request will be updated.</p><br>
+    <hr>
+  </body>
+</html>
